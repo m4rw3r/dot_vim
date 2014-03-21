@@ -32,6 +32,7 @@
 	
 	" Syntax
 	Bundle 'beyondwords/vim-twig'
+	Bundle 'ekalinin/Dockerfile.vim'
 	Bundle 'groenewege/vim-less'
 	Bundle 'guns/vim-clojure-static'
 	Bundle 'jnwhiteh/vim-golang'
