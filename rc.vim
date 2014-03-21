@@ -49,6 +49,7 @@
 	Bundle 'kien/ctrlp.vim'
 	Bundle 'L9'
 	Bundle 'Lokaltog/vim-powerline'
+	Bundle 'mileszs/ack.vim'
 	Bundle 'scrooloose/nerdtree'
 	Bundle 'scrooloose/syntastic'
 	Bundle 'tpope/vim-fugitive'
@@ -84,6 +85,11 @@
 
 " Bufkill {
 	let g:BufKillCreateMappings = 0
+" }
+
+" Ack.vim {
+	" Use The Silver Searcher
+	let g:ackprg = 'ag --nogroup --nocolor --column'
 " }
 
 " Backup, Swap and View Files {
